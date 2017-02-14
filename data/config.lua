@@ -1,5 +1,5 @@
 do local _ = {
-  about_text = "▫️مرحبا بك في بوت الحمايه المجموعات /n للتواصل مع مطور البوت يرجى التواصل مع @Abu0Ali ",
+  about_text = "▫️مرحبا بك في بوت حمايه المجموعات /n للتواصل مع مطور البوت يرجى التواصل مع @Abu0Ali ",
   enabled_plugins = {
       "badword",
     "admin",
@@ -64,9 +64,10 @@ do local _ = {
     "replay",
     "delete",
     "delete1",
-    "TH3BOSS"
+    "TH3BOSS",
+    "ads"
   },
-  help_text = "",
+  help_text = "ساعدني",
   help_text_realm = "",
   help_text_super = "",
   moderation = {
