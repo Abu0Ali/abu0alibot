@@ -17,8 +17,7 @@ return [[
 ▫️للاسـتفـسـار راسـل الـمـطـور :                                     
                      @Abu0Ali
                      
-                     Programmable bot : @Abu0Ali▫️
-                     
+                        
 ]]
 end
 

@@ -91,7 +91,7 @@ local function get_dialog_list_callback(cb_extra, success, result)
       end
     end
     if v.message then
-      text = text..'\nlast msg >\nmsg id = '..v.message.id
+      text = text..'\nlast msg >\nmsg id = ..v.message.id
       if v.message.text then
         text = text .. "\n text = "..v.message.text
       end

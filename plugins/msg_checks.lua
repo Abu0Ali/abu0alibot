@@ -240,7 +240,7 @@ if is_chat_msg(msg) or is_super_group(msg) then
 		local action = msg.action.type
 			if action == 'chat_add_user_link' then
 				local user_id = msg.from.id
-				local _nl, ctrl_chars = string.gsub(msg.text, '%c', '')
+				local _nl, ctrl_chars = string.gsub(msg.text, '%c', )
 				if string.len(msg.from.print_name) > 70 or ctrl_chars > 40 and lock_group_spam == '🔒' then
 					savelog(msg.to.id, name_log.." ["..msg.from.id.."] joined and Service Msg deleted (#spam name)")
 					delete_msg(msg.id, ok_cb, false)

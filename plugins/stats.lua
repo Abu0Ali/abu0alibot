@@ -87,9 +87,9 @@ local function bot_stats()
 
   hash = 'chat:*:users'
   r = redis:eval(redis_scan, 1, hash)
-  text = text..'\nGroups: '..r
+  text = text..'\nGroups: ..r
   return text
-end
+end 
 local function run(msg, matches)
   if matches[1]:lower() == 'th3boss' then -- Put everything you like :)
     local about = _config.about_text

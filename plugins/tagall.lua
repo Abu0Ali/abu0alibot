@@ -1,6 +1,6 @@
 local function tagall(cb_extra, success, result) 
     local receiver = cb_extra.receiver 
-    local text = '' 
+    local text = "مساعده"
 local msgss = 0 
     for k,v in pairs(result.members) do 
         if v.username then 
@@ -14,7 +14,7 @@ end
 
 local function tagall2(cb_extra, success, result) 
     local receiver = cb_extra.receiver 
-    local text = '' 
+    local text = 'ارسال' 
 local msgss = 0 
     for k,v in pairs(result) do 
         if v.username then 
@@ -43,10 +43,10 @@ end
 return { 
   description = "Will tag all ppl with a msg.", 
   usage = { 
-    "تاق [msg]." 
+    "مساعده [msg]." 
   }, 
   patterns = { 
-    "^تاق +(.+)$" 
+    "^مساعده +(.+)$" 
   }, 
   run = abuali
 }

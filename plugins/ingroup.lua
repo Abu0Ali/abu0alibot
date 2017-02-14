@@ -1491,7 +1491,7 @@ end
 				local receiver = get_receiver(msg)
 				local get_cmd = "mute_user"
 				local username = matches[2]
-				local username = string.gsub(matches[2], '@', '')
+				local username = string.gsub(matches[2], '@', )
 				resolve_username(username, callback_mute_res, {receiver = receiver, get_cmd = get_cmd})
 			end
 		end

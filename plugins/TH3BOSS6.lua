@@ -16,8 +16,7 @@ return [[
                       
                       
 ▫️للاسـتفـسـار راسـل يرجى مراسله المطور
-                     
-                     Programmable bot : @Abu0Ali
+                     @abu0ali
 ]]
 end
 
